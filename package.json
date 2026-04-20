@@ -1,0 +1,20 @@
+{
+  "name": "kft-content-gen",
+  "version": "11.6.0",
+  "description": "KFT Content Generation System — Forensic Refactor V11.6",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  },
+  "scripts": {
+    "start": "node batch-processor.js",
+    "config": "node kft-config-v8.js",
+    "setup": "./setup.sh",
+    "doctor": "node -e \"console.log('Node:',process.version);console.log('Fetch:',typeof fetch);console.log('FormData:',typeof FormData);\""
+  },
+  "author": "KFT",
+  "support": "https://t.me/KFT_OFM"
+}
